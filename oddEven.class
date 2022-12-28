@@ -1,0 +1,13 @@
+import java.until.Scanner;
+int num;
+Scanner userInput = new Scanner(System.in);
+
+System.out.print("Enter Your Number : ");
+num = userInput.nextInt();
+
+if(num % 2 == 0){
+    System.out.println("Your Number is Even");
+}else{
+
+    System.out.println("Your Number is Odd");
+}
